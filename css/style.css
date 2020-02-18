@@ -1,0 +1,116 @@
+/** Limpar estrutura**/
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/** Formatação do header do site**/
+#cab-nav{
+	background-color: #FFD700;
+	text-align: center;
+}
+
+#logo,#nave{
+	padding: 10px;
+}
+
+h1#header{
+		font-size: 2.5em;
+		color: #4e4e4e;
+}
+
+.branco{
+	color: white;
+}
+
+a#nav{
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	font-family: "Arial", Helvetica, sans-serif;
+	text-decoration: none;
+	padding: 8px 12px;
+}
+
+nav#menu a:hover{
+	color: yellow;
+	background-color: white;
+}
+
+/** Formatação da estrutura principal do site**/
+
+div.tudo{
+	width: 920px;
+	margin: 0 auto;
+}
+
+div.lateral{
+	width: 240px;
+	float: right;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+div.lateral h3{
+	background-color:#D3D3D3;
+	font-size: 18px;
+}
+
+div.lateral p{
+	font-size: 0.8em;
+	padding: 5px;
+}
+
+div.lateral a{
+	text-decoration: none;
+	color: #FFD700;
+	font-weight: bold;
+}
+
+p#post{
+	border-bottom: 1px solid gray;
+}
+
+div.info{
+	width: 640px;
+	padding: 20px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+div.info h2{
+	color: #FFD700;
+
+}
+
+div.info a{
+	color: #FFD700;
+	text-decoration: none;
+}
+
+#data{
+	font-size: 0.8em;
+	border-bottom: 1px solid white;
+	padding-bottom: 10px;
+	display: block;
+}
+
+img.info{
+	width: 800px;
+}
+
+/** Formatação rodapé**/
+
+footer{clear: both;
+border-top:1px solid gray;}
+footer p{text-align: center;
+}
